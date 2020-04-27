@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d3481d9b23754facacaca563141916b0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_d3481d9b23754facacaca563141916b0" ></div>
+        
+</body>
+<script>    
+    
+            var map_d3481d9b23754facacaca563141916b0 = L.map(
+                "map_d3481d9b23754facacaca563141916b0",
+                {
+                    center: [4.70159, -75.513],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b85d2a9023b449ab8f360fe3b757fae7 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+            var marker_c0a24f5cd294462e8f4642c0575a2a9f = L.marker(
+                [44.80739974975586, -68.82810211181639],
+                {}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+        var popup_5471bd178b0d4a27803511cb99b93fb1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a60ea3f7c984347bfd7b3fd55c38f64 = $(`<div id="html_0a60ea3f7c984347bfd7b3fd55c38f64" style="width: 100.0%; height: 100.0%;">(BGR) Bangor</div>`)[0];
+            popup_5471bd178b0d4a27803511cb99b93fb1.setContent(html_0a60ea3f7c984347bfd7b3fd55c38f64);
+        
+
+        marker_c0a24f5cd294462e8f4642c0575a2a9f.bindPopup(popup_5471bd178b0d4a27803511cb99b93fb1)
+        ;
+
+        
+    
+    
+            var marker_72a6a847777d455090bedec409502942 = L.marker(
+                [29.98439979553223, -95.34140014648438],
+                {}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+        var popup_de83975b06144460a1d308847e5e6c0b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_794fabac49c9422e93cf079711f95158 = $(`<div id="html_794fabac49c9422e93cf079711f95158" style="width: 100.0%; height: 100.0%;">(IAH) Houston</div>`)[0];
+            popup_de83975b06144460a1d308847e5e6c0b.setContent(html_794fabac49c9422e93cf079711f95158);
+        
+
+        marker_72a6a847777d455090bedec409502942.bindPopup(popup_de83975b06144460a1d308847e5e6c0b)
+        ;
+
+        
+    
+    
+            var marker_a9967510d3b244b99b59c5f6278fd778 = L.marker(
+                [40.63980103, -73.77890015],
+                {}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+        var popup_e1b92ed5aa0a4077895a2899f1819852 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e8d7dc6653ee4343a0c1db6ab4179906 = $(`<div id="html_e8d7dc6653ee4343a0c1db6ab4179906" style="width: 100.0%; height: 100.0%;">(JFK) New York</div>`)[0];
+            popup_e1b92ed5aa0a4077895a2899f1819852.setContent(html_e8d7dc6653ee4343a0c1db6ab4179906);
+        
+
+        marker_a9967510d3b244b99b59c5f6278fd778.bindPopup(popup_e1b92ed5aa0a4077895a2899f1819852)
+        ;
+
+        
+    
+    
+            var marker_a72028d861844beb833350ce477982c3 = L.marker(
+                [28.429399490356445, -81.30899810791016],
+                {}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+        var popup_2a462c3f6b6740279fe66da74d2430a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4347ae849a994d4db2d9e7c104f5e22a = $(`<div id="html_4347ae849a994d4db2d9e7c104f5e22a" style="width: 100.0%; height: 100.0%;">(MCO) Orlando</div>`)[0];
+            popup_2a462c3f6b6740279fe66da74d2430a2.setContent(html_4347ae849a994d4db2d9e7c104f5e22a);
+        
+
+        marker_a72028d861844beb833350ce477982c3.bindPopup(popup_2a462c3f6b6740279fe66da74d2430a2)
+        ;
+
+        
+    
+    
+            var marker_6b6f60af8eef48d1a1c89b64b3f182f8 = L.marker(
+                [25.79319953918457, -80.29060363769531],
+                {}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+        var popup_e6a46b1412fd4a0784978d0f3067a884 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff963a898c2c4a11b239fb9eabfc6412 = $(`<div id="html_ff963a898c2c4a11b239fb9eabfc6412" style="width: 100.0%; height: 100.0%;">(MIA) Miami</div>`)[0];
+            popup_e6a46b1412fd4a0784978d0f3067a884.setContent(html_ff963a898c2c4a11b239fb9eabfc6412);
+        
+
+        marker_6b6f60af8eef48d1a1c89b64b3f182f8.bindPopup(popup_e6a46b1412fd4a0784978d0f3067a884)
+        ;
+
+        
+    
+    
+            var marker_521f083adc224a8b97e212537e1eb860 = L.marker(
+                [18.567399978599997, -68.36340332030001],
+                {}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+        var popup_098d97e0feb540e0b285498f3605bf9b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f278af665b924cf2af1af68b6ec03689 = $(`<div id="html_f278af665b924cf2af1af68b6ec03689" style="width: 100.0%; height: 100.0%;">(PUJ) Punta Cana</div>`)[0];
+            popup_098d97e0feb540e0b285498f3605bf9b.setContent(html_f278af665b924cf2af1af68b6ec03689);
+        
+
+        marker_521f083adc224a8b97e212537e1eb860.bindPopup(popup_098d97e0feb540e0b285498f3605bf9b)
+        ;
+
+        
+    
+    
+            var marker_ef41914799e44f33b7b58e81bb7c2c05 = L.marker(
+                [19.4363, -99.072098],
+                {}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+        var popup_054577777794458d91cd92f78034c399 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a4d0180a91a430db74a41576236cb4f = $(`<div id="html_4a4d0180a91a430db74a41576236cb4f" style="width: 100.0%; height: 100.0%;">(MEX) Mexico City</div>`)[0];
+            popup_054577777794458d91cd92f78034c399.setContent(html_4a4d0180a91a430db74a41576236cb4f);
+        
+
+        marker_ef41914799e44f33b7b58e81bb7c2c05.bindPopup(popup_054577777794458d91cd92f78034c399)
+        ;
+
+        
+    
+    
+            var marker_60e35350d21f41a1b701e9093b4ed5ba = L.marker(
+                [21.036500930800003, -86.8770980835],
+                {}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+        var popup_1c13aeebb2514c0ba3af82ed761cf217 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9255c0bcd3db4ab5896fcf21be81d16e = $(`<div id="html_9255c0bcd3db4ab5896fcf21be81d16e" style="width: 100.0%; height: 100.0%;">(CUN) Cancún</div>`)[0];
+            popup_1c13aeebb2514c0ba3af82ed761cf217.setContent(html_9255c0bcd3db4ab5896fcf21be81d16e);
+        
+
+        marker_60e35350d21f41a1b701e9093b4ed5ba.bindPopup(popup_1c13aeebb2514c0ba3af82ed761cf217)
+        ;
+
+        
+    
+    
+            var marker_ca9f7c711a5548c88beda90c40294c4d = L.marker(
+                [-34.8222, -58.5358],
+                {}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+        var popup_e270917574b14b04873db835b42552c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fbcc7be5031840498b731ed0ee1fe0db = $(`<div id="html_fbcc7be5031840498b731ed0ee1fe0db" style="width: 100.0%; height: 100.0%;">(EZE) Buenos Aires</div>`)[0];
+            popup_e270917574b14b04873db835b42552c0.setContent(html_fbcc7be5031840498b731ed0ee1fe0db);
+        
+
+        marker_ca9f7c711a5548c88beda90c40294c4d.bindPopup(popup_e270917574b14b04873db835b42552c0)
+        ;
+
+        
+    
+    
+            var marker_58fc16f103044e4dbcfe29e7addccdd2 = L.marker(
+                [-33.393001556396484, -70.78579711914062],
+                {}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+        var popup_b0a2158831d046ed8cb093197ca3327b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_984a840596a44a1da05b45c836c1f1a9 = $(`<div id="html_984a840596a44a1da05b45c836c1f1a9" style="width: 100.0%; height: 100.0%;">(SCL) Santiago</div>`)[0];
+            popup_b0a2158831d046ed8cb093197ca3327b.setContent(html_984a840596a44a1da05b45c836c1f1a9);
+        
+
+        marker_58fc16f103044e4dbcfe29e7addccdd2.bindPopup(popup_b0a2158831d046ed8cb093197ca3327b)
+        ;
+
+        
+    
+    
+            var marker_b91eaeaccad34204bedfdddc7f4a79d3 = L.marker(
+                [-2.88947, -78.984398],
+                {}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+        var popup_20cb9db8817949d59c1d1b66e2608e58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c386fa13b31481ca44e794d365d526b = $(`<div id="html_2c386fa13b31481ca44e794d365d526b" style="width: 100.0%; height: 100.0%;">(CUE) Cuenca</div>`)[0];
+            popup_20cb9db8817949d59c1d1b66e2608e58.setContent(html_2c386fa13b31481ca44e794d365d526b);
+        
+
+        marker_b91eaeaccad34204bedfdddc7f4a79d3.bindPopup(popup_20cb9db8817949d59c1d1b66e2608e58)
+        ;
+
+        
+    
+    
+            var marker_255504bd82df463fba294b652f6acc58 = L.marker(
+                [-2.15741991997, -79.88359832760001],
+                {}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+        var popup_5fdc2ff302fe455296e633dc76906d25 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb9c149d46f9495e8d2ad91f15f3bc2f = $(`<div id="html_cb9c149d46f9495e8d2ad91f15f3bc2f" style="width: 100.0%; height: 100.0%;">(GYE) Guayaquil</div>`)[0];
+            popup_5fdc2ff302fe455296e633dc76906d25.setContent(html_cb9c149d46f9495e8d2ad91f15f3bc2f);
+        
+
+        marker_255504bd82df463fba294b652f6acc58.bindPopup(popup_5fdc2ff302fe455296e633dc76906d25)
+        ;
+
+        
+    
+    
+            var marker_eb6d459579e142cfb1e8f7d0c4c8cfbe = L.marker(
+                [-0.906833, -78.615799],
+                {}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+        var popup_bbfae6d405e7499e9c3cc4f2549f8911 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f6e8178f88e4aa3bd033acb9f19f83a = $(`<div id="html_8f6e8178f88e4aa3bd033acb9f19f83a" style="width: 100.0%; height: 100.0%;">(LTX) Latacunga</div>`)[0];
+            popup_bbfae6d405e7499e9c3cc4f2549f8911.setContent(html_8f6e8178f88e4aa3bd033acb9f19f83a);
+        
+
+        marker_eb6d459579e142cfb1e8f7d0c4c8cfbe.bindPopup(popup_bbfae6d405e7499e9c3cc4f2549f8911)
+        ;
+
+        
+    
+    
+            var marker_912a4b9bd6ac474b9d5cf5171e543c7f = L.marker(
+                [-0.129166666667, -78.3575],
+                {}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+        var popup_e91150353d354f2492013977f6d4eb6a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a874be32a4144102bdc9c8e1f1007b09 = $(`<div id="html_a874be32a4144102bdc9c8e1f1007b09" style="width: 100.0%; height: 100.0%;">(UIO) Quito</div>`)[0];
+            popup_e91150353d354f2492013977f6d4eb6a.setContent(html_a874be32a4144102bdc9c8e1f1007b09);
+        
+
+        marker_912a4b9bd6ac474b9d5cf5171e543c7f.bindPopup(popup_e91150353d354f2492013977f6d4eb6a)
+        ;
+
+        
+    
+    
+            var marker_244474f1655947c6b4629e5cc50d0d3a = L.marker(
+                [4.452780000000001, -75.7664],
+                {}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+        var popup_a1743abe4f5b4f08aad6d7203e3c423e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed3dc28319464af0816357ecbcc07822 = $(`<div id="html_ed3dc28319464af0816357ecbcc07822" style="width: 100.0%; height: 100.0%;">(AXM) Armenia</div>`)[0];
+            popup_a1743abe4f5b4f08aad6d7203e3c423e.setContent(html_ed3dc28319464af0816357ecbcc07822);
+        
+
+        marker_244474f1655947c6b4629e5cc50d0d3a.bindPopup(popup_a1743abe4f5b4f08aad6d7203e3c423e)
+        ;
+
+        
+    
+    
+            var marker_ef74aed2ac504293bf37ac1e2810348f = L.marker(
+                [7.1265, -73.1848],
+                {}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+        var popup_aa8e349129a34b9ea567a18471ccf018 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cdfaa0dab61542fc9e438ecc72eed7ba = $(`<div id="html_cdfaa0dab61542fc9e438ecc72eed7ba" style="width: 100.0%; height: 100.0%;">(BGA) Bucaramanga</div>`)[0];
+            popup_aa8e349129a34b9ea567a18471ccf018.setContent(html_cdfaa0dab61542fc9e438ecc72eed7ba);
+        
+
+        marker_ef74aed2ac504293bf37ac1e2810348f.bindPopup(popup_aa8e349129a34b9ea567a18471ccf018)
+        ;
+
+        
+    
+    
+            var marker_ab99c1866cdb4de1b8fb889f8bed7fd5 = L.marker(
+                [4.70159, -74.1469],
+                {}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+        var popup_0dd7ad9fc0d842a7935651da529571c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_136df0c343ec4cd294e8fed4db833e95 = $(`<div id="html_136df0c343ec4cd294e8fed4db833e95" style="width: 100.0%; height: 100.0%;">(BOG) Bogota</div>`)[0];
+            popup_0dd7ad9fc0d842a7935651da529571c8.setContent(html_136df0c343ec4cd294e8fed4db833e95);
+        
+
+        marker_ab99c1866cdb4de1b8fb889f8bed7fd5.bindPopup(popup_0dd7ad9fc0d842a7935651da529571c8)
+        ;
+
+        
+    
+    
+            var marker_7ad56a172c624ca481ec4a6db944ec6b = L.marker(
+                [10.8896, -74.7808],
+                {}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+        var popup_45f6922bdd1b407896eb32ea67cb9f64 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3511df004a0549fe927ea4a756e1d9bb = $(`<div id="html_3511df004a0549fe927ea4a756e1d9bb" style="width: 100.0%; height: 100.0%;">(BAQ) Barranquilla</div>`)[0];
+            popup_45f6922bdd1b407896eb32ea67cb9f64.setContent(html_3511df004a0549fe927ea4a756e1d9bb);
+        
+
+        marker_7ad56a172c624ca481ec4a6db944ec6b.bindPopup(popup_45f6922bdd1b407896eb32ea67cb9f64)
+        ;
+
+        
+    
+    
+            var marker_31b21b2e4fbf44ea8c6c4a564c514682 = L.marker(
+                [7.927569999999999, -72.5115],
+                {}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+        var popup_7e4cac3d07b04c46bb9c8ca8c2abb68e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30412eeb900f43829c0ebe63091c02a1 = $(`<div id="html_30412eeb900f43829c0ebe63091c02a1" style="width: 100.0%; height: 100.0%;">(CUC) Cúcuta</div>`)[0];
+            popup_7e4cac3d07b04c46bb9c8ca8c2abb68e.setContent(html_30412eeb900f43829c0ebe63091c02a1);
+        
+
+        marker_31b21b2e4fbf44ea8c6c4a564c514682.bindPopup(popup_7e4cac3d07b04c46bb9c8ca8c2abb68e)
+        ;
+
+        
+    
+    
+            var marker_6be180dd59a6494e927c53386498a7d9 = L.marker(
+                [10.4424, -75.513],
+                {}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+        var popup_c91b1e31e18d4e4b95a286d060484808 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55f772c8bd4b443e86708cd48a3ecc61 = $(`<div id="html_55f772c8bd4b443e86708cd48a3ecc61" style="width: 100.0%; height: 100.0%;">(CTG) Cartagena</div>`)[0];
+            popup_c91b1e31e18d4e4b95a286d060484808.setContent(html_55f772c8bd4b443e86708cd48a3ecc61);
+        
+
+        marker_6be180dd59a6494e927c53386498a7d9.bindPopup(popup_c91b1e31e18d4e4b95a286d060484808)
+        ;
+
+        
+    
+    
+            var marker_e2993f0896634be4bea48eaa76163fd6 = L.marker(
+                [3.54322, -76.3816],
+                {}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+        var popup_ebd52e077fab49d28a33715499e0aced = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06af5fc3b8a440d2ae826adb979c7ee2 = $(`<div id="html_06af5fc3b8a440d2ae826adb979c7ee2" style="width: 100.0%; height: 100.0%;">(CLO) Cali</div>`)[0];
+            popup_ebd52e077fab49d28a33715499e0aced.setContent(html_06af5fc3b8a440d2ae826adb979c7ee2);
+        
+
+        marker_e2993f0896634be4bea48eaa76163fd6.bindPopup(popup_ebd52e077fab49d28a33715499e0aced)
+        ;
+
+        
+    
+    
+            var marker_fb679fc5cab74a20b4ecc1a8e26dbb55 = L.marker(
+                [-4.19355, -69.9432],
+                {}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+        var popup_c3837483b8074c7facd9a1329a019f21 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab75c306369f4e9c9e1092567acd57ce = $(`<div id="html_ab75c306369f4e9c9e1092567acd57ce" style="width: 100.0%; height: 100.0%;">(LET) Leticia</div>`)[0];
+            popup_c3837483b8074c7facd9a1329a019f21.setContent(html_ab75c306369f4e9c9e1092567acd57ce);
+        
+
+        marker_fb679fc5cab74a20b4ecc1a8e26dbb55.bindPopup(popup_c3837483b8074c7facd9a1329a019f21)
+        ;
+
+        
+    
+    
+            var marker_060495492f274599b70384bc6d6717bc = L.marker(
+                [8.823739999999999, -75.8258],
+                {}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+        var popup_e102cd2bee1448fe84e5ad19ec73221c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88fdee3f88b44a43bcf0da15f0497171 = $(`<div id="html_88fdee3f88b44a43bcf0da15f0497171" style="width: 100.0%; height: 100.0%;">(MTR) Montería</div>`)[0];
+            popup_e102cd2bee1448fe84e5ad19ec73221c.setContent(html_88fdee3f88b44a43bcf0da15f0497171);
+        
+
+        marker_060495492f274599b70384bc6d6717bc.bindPopup(popup_e102cd2bee1448fe84e5ad19ec73221c)
+        ;
+
+        
+    
+    
+            var marker_67f99fac0d8f4313943093307824aee2 = L.marker(
+                [4.81267, -75.7395],
+                {}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+        var popup_7b6c8a7cffdd4f02b8d3205c4e1647c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6dd73a1477b340b6a99fa496f1ab9175 = $(`<div id="html_6dd73a1477b340b6a99fa496f1ab9175" style="width: 100.0%; height: 100.0%;">(PEI) Pereira</div>`)[0];
+            popup_7b6c8a7cffdd4f02b8d3205c4e1647c4.setContent(html_6dd73a1477b340b6a99fa496f1ab9175);
+        
+
+        marker_67f99fac0d8f4313943093307824aee2.bindPopup(popup_7b6c8a7cffdd4f02b8d3205c4e1647c4)
+        ;
+
+        
+    
+    
+            var marker_6a120e89198c42d7bbe5e3a4098796ad = L.marker(
+                [6.164540000000001, -75.4231],
+                {}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+        var popup_7fa28b15a1d349878d4827cc8d37fb83 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a9423fe3181e4a168499b9d0ba72a8c5 = $(`<div id="html_a9423fe3181e4a168499b9d0ba72a8c5" style="width: 100.0%; height: 100.0%;">(MDE) Medellín</div>`)[0];
+            popup_7fa28b15a1d349878d4827cc8d37fb83.setContent(html_a9423fe3181e4a168499b9d0ba72a8c5);
+        
+
+        marker_6a120e89198c42d7bbe5e3a4098796ad.bindPopup(popup_7fa28b15a1d349878d4827cc8d37fb83)
+        ;
+
+        
+    
+    
+            var marker_8970f61c6bbb498faede3564b2f6529a = L.marker(
+                [11.5262, -72.926],
+                {}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+        var popup_78e75292c8a748ef80927c4b09bf5a2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10c4315d1e5d408ab903f203691f407c = $(`<div id="html_10c4315d1e5d408ab903f203691f407c" style="width: 100.0%; height: 100.0%;">(RCH) Riohacha</div>`)[0];
+            popup_78e75292c8a748ef80927c4b09bf5a2f.setContent(html_10c4315d1e5d408ab903f203691f407c);
+        
+
+        marker_8970f61c6bbb498faede3564b2f6529a.bindPopup(popup_78e75292c8a748ef80927c4b09bf5a2f)
+        ;
+
+        
+    
+    
+            var marker_a2f4343afea64e8aadb88160f9693ae0 = L.marker(
+                [11.1196, -74.2306],
+                {}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+        var popup_e9f37a6f8a2841538f620def87ec3a21 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dfd751e0d1274c41b3ff2110951dec50 = $(`<div id="html_dfd751e0d1274c41b3ff2110951dec50" style="width: 100.0%; height: 100.0%;">(SMR) Santa Marta</div>`)[0];
+            popup_e9f37a6f8a2841538f620def87ec3a21.setContent(html_dfd751e0d1274c41b3ff2110951dec50);
+        
+
+        marker_a2f4343afea64e8aadb88160f9693ae0.bindPopup(popup_e9f37a6f8a2841538f620def87ec3a21)
+        ;
+
+        
+    
+    
+            var marker_d083486b65174f8dbb436359b6cd7625 = L.marker(
+                [12.5836, -81.7112],
+                {}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+        var popup_11b447002d274091837564c9f383e84b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1981b504bda44f77b0c9e255ccd3d992 = $(`<div id="html_1981b504bda44f77b0c9e255ccd3d992" style="width: 100.0%; height: 100.0%;">(ADZ) San Andrés</div>`)[0];
+            popup_11b447002d274091837564c9f383e84b.setContent(html_1981b504bda44f77b0c9e255ccd3d992);
+        
+
+        marker_d083486b65174f8dbb436359b6cd7625.bindPopup(popup_11b447002d274091837564c9f383e84b)
+        ;
+
+        
+    
+    
+            var marker_957e6d2ed33b4333952f8dc7a71ca030 = L.marker(
+                [10.435, -73.2495],
+                {}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+        var popup_9aa23ed8502f4d1bb749af687b22a4d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f20b3c2eeb74962bdf642b0151e17e5 = $(`<div id="html_8f20b3c2eeb74962bdf642b0151e17e5" style="width: 100.0%; height: 100.0%;">(VUP) Valledupar</div>`)[0];
+            popup_9aa23ed8502f4d1bb749af687b22a4d8.setContent(html_8f20b3c2eeb74962bdf642b0151e17e5);
+        
+
+        marker_957e6d2ed33b4333952f8dc7a71ca030.bindPopup(popup_9aa23ed8502f4d1bb749af687b22a4d8)
+        ;
+
+        
+    
+    
+            var marker_7e535020bb724140b33c0c34b7458e29 = L.marker(
+                [5.31911, -72.384],
+                {}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+        var popup_94e175b01f6242759e6e127c97eaf638 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c5b31503fae74cb5bf60dc1ce18d1efb = $(`<div id="html_c5b31503fae74cb5bf60dc1ce18d1efb" style="width: 100.0%; height: 100.0%;">(EYP) El Yopal</div>`)[0];
+            popup_94e175b01f6242759e6e127c97eaf638.setContent(html_c5b31503fae74cb5bf60dc1ce18d1efb);
+        
+
+        marker_7e535020bb724140b33c0c34b7458e29.bindPopup(popup_94e175b01f6242759e6e127c97eaf638)
+        ;
+
+        
+    
+    
+            var marker_1ed00b61ffa94ea8b2131297b2e16c56 = L.marker(
+                [-6.787479877471924, -79.8281021118164],
+                {}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+        var popup_76539f30a68443bc9bc7a3c108343d9c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_71f03cc6ddd54a3a998b1dfc80ee8c5f = $(`<div id="html_71f03cc6ddd54a3a998b1dfc80ee8c5f" style="width: 100.0%; height: 100.0%;">(CIX) Chiclayo</div>`)[0];
+            popup_76539f30a68443bc9bc7a3c108343d9c.setContent(html_71f03cc6ddd54a3a998b1dfc80ee8c5f);
+        
+
+        marker_1ed00b61ffa94ea8b2131297b2e16c56.bindPopup(popup_76539f30a68443bc9bc7a3c108343d9c)
+        ;
+
+        
+    
+    
+            var marker_9698072a211d433cb1c0bf4a9c15437b = L.marker(
+                [-12.0219, -77.114305],
+                {}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+        var popup_b8fe03390e6646ac8d53d483c3c17f7d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_477e85748e944187b3ce982882a45841 = $(`<div id="html_477e85748e944187b3ce982882a45841" style="width: 100.0%; height: 100.0%;">(LIM) Lima</div>`)[0];
+            popup_b8fe03390e6646ac8d53d483c3c17f7d.setContent(html_477e85748e944187b3ce982882a45841);
+        
+
+        marker_9698072a211d433cb1c0bf4a9c15437b.bindPopup(popup_b8fe03390e6646ac8d53d483c3c17f7d)
+        ;
+
+        
+    
+    
+            var marker_059594cf6eeb40d7b06b847406f54dab = L.marker(
+                [-5.59248, -78.774002],
+                {}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+        var popup_d064cb8c006546ad8e8287fedfc829d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df80e9b55caa4e7895c704c1fa8aa271 = $(`<div id="html_df80e9b55caa4e7895c704c1fa8aa271" style="width: 100.0%; height: 100.0%;">(JAE) Jaén</div>`)[0];
+            popup_d064cb8c006546ad8e8287fedfc829d2.setContent(html_df80e9b55caa4e7895c704c1fa8aa271);
+        
+
+        marker_059594cf6eeb40d7b06b847406f54dab.bindPopup(popup_d064cb8c006546ad8e8287fedfc829d2)
+        ;
+
+        
+    
+    
+            var marker_24980907a46942679d915a3dcc2ad10f = L.marker(
+                [-15.467100143432615, -70.158203125],
+                {}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+        var popup_d605c4a7526f4a03a6e43606c35d99ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_271166f0e2ac410ca5dc2d0ef664ac7f = $(`<div id="html_271166f0e2ac410ca5dc2d0ef664ac7f" style="width: 100.0%; height: 100.0%;">(JUL) Juliaca</div>`)[0];
+            popup_d605c4a7526f4a03a6e43606c35d99ff.setContent(html_271166f0e2ac410ca5dc2d0ef664ac7f);
+        
+
+        marker_24980907a46942679d915a3dcc2ad10f.bindPopup(popup_d605c4a7526f4a03a6e43606c35d99ff)
+        ;
+
+        
+    
+    
+            var marker_6ffa54b16afe4c50821b672fa1558967 = L.marker(
+                [-7.1391801834106445, -78.4894027709961],
+                {}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+        var popup_324bbcf02c334e5ba22fb8a8a646265b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ed50e7ac4fd4b1a9bd7e2d66a5cef95 = $(`<div id="html_3ed50e7ac4fd4b1a9bd7e2d66a5cef95" style="width: 100.0%; height: 100.0%;">(CJA) Cajamarca</div>`)[0];
+            popup_324bbcf02c334e5ba22fb8a8a646265b.setContent(html_3ed50e7ac4fd4b1a9bd7e2d66a5cef95);
+        
+
+        marker_6ffa54b16afe4c50821b672fa1558967.bindPopup(popup_324bbcf02c334e5ba22fb8a8a646265b)
+        ;
+
+        
+    
+    
+            var marker_8b9519f3c7bf4b04b4a9b08eca2e5e02 = L.marker(
+                [-3.7847399711608887, -73.30879974365234],
+                {}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+        var popup_9c7940861b0047a3a497ff63cb3c3ff5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_988480479e024ceaa919066b7335dda4 = $(`<div id="html_988480479e024ceaa919066b7335dda4" style="width: 100.0%; height: 100.0%;">(IQT) Iquitos</div>`)[0];
+            popup_9c7940861b0047a3a497ff63cb3c3ff5.setContent(html_988480479e024ceaa919066b7335dda4);
+        
+
+        marker_8b9519f3c7bf4b04b4a9b08eca2e5e02.bindPopup(popup_9c7940861b0047a3a497ff63cb3c3ff5)
+        ;
+
+        
+    
+    
+            var marker_d07641a18be840dc84c661ef00608650 = L.marker(
+                [-16.3411006927, -71.5830993652],
+                {}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+        var popup_4c9428bbddc74398a7263124208050e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96bea2caadff421e9d03792ed6de4722 = $(`<div id="html_96bea2caadff421e9d03792ed6de4722" style="width: 100.0%; height: 100.0%;">(AQP) Arequipa</div>`)[0];
+            popup_4c9428bbddc74398a7263124208050e6.setContent(html_96bea2caadff421e9d03792ed6de4722);
+        
+
+        marker_d07641a18be840dc84c661ef00608650.bindPopup(popup_4c9428bbddc74398a7263124208050e6)
+        ;
+
+        
+    
+    
+            var marker_60e3b2f706984a3f8e3b54ef7bbcdc54 = L.marker(
+                [-6.508739948272705, -76.37319946289062],
+                {}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+        var popup_ed4f7c33eee9443d89d3cddf07ffdf0d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_225b7a37b5c340d382f7d3f11939d46b = $(`<div id="html_225b7a37b5c340d382f7d3f11939d46b" style="width: 100.0%; height: 100.0%;">(TPP) Tarapoto</div>`)[0];
+            popup_ed4f7c33eee9443d89d3cddf07ffdf0d.setContent(html_225b7a37b5c340d382f7d3f11939d46b);
+        
+
+        marker_60e3b2f706984a3f8e3b54ef7bbcdc54.bindPopup(popup_ed4f7c33eee9443d89d3cddf07ffdf0d)
+        ;
+
+        
+    
+    
+            var marker_be44adc320794d1c8188e84af0325ab3 = L.marker(
+                [-18.0533008575, -70.2758026123],
+                {}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+        var popup_8f0aa53445004a7599eeb1e5de9c40b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_09996086f66941cc99a81b7407a4e8f1 = $(`<div id="html_09996086f66941cc99a81b7407a4e8f1" style="width: 100.0%; height: 100.0%;">(TCQ) Tacna</div>`)[0];
+            popup_8f0aa53445004a7599eeb1e5de9c40b4.setContent(html_09996086f66941cc99a81b7407a4e8f1);
+        
+
+        marker_be44adc320794d1c8188e84af0325ab3.bindPopup(popup_8f0aa53445004a7599eeb1e5de9c40b4)
+        ;
+
+        
+    
+    
+            var marker_9112f8ce3a1141729c7d080f6e909679 = L.marker(
+                [-5.20574998856, -80.61640167239999],
+                {}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+        var popup_20699bffbd2843be85618bef947868c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_defef3414bc348ab920738e43053688e = $(`<div id="html_defef3414bc348ab920738e43053688e" style="width: 100.0%; height: 100.0%;">(PIU) Piura</div>`)[0];
+            popup_20699bffbd2843be85618bef947868c2.setContent(html_defef3414bc348ab920738e43053688e);
+        
+
+        marker_9112f8ce3a1141729c7d080f6e909679.bindPopup(popup_20699bffbd2843be85618bef947868c2)
+        ;
+
+        
+    
+    
+            var marker_921089be5de941a397f964cf4808c9c5 = L.marker(
+                [-4.5766401290894, -81.25409698486301],
+                {}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+        var popup_259134aa5ffd410fb02b0bfeb693bc19 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9e280217a6c46e28e7caffedb348b48 = $(`<div id="html_d9e280217a6c46e28e7caffedb348b48" style="width: 100.0%; height: 100.0%;">(TYL) Talara</div>`)[0];
+            popup_259134aa5ffd410fb02b0bfeb693bc19.setContent(html_d9e280217a6c46e28e7caffedb348b48);
+        
+
+        marker_921089be5de941a397f964cf4808c9c5.bindPopup(popup_259134aa5ffd410fb02b0bfeb693bc19)
+        ;
+
+        
+    
+    
+            var marker_88c1d9e1f5c84307ab54d987edeca2ee = L.marker(
+                [-13.535699844400003, -71.9387969971],
+                {}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+        var popup_5f5b6dcc9b3d411a83d18caa0a06f94a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad466bf04d7f4d2f952d587109fd05de = $(`<div id="html_ad466bf04d7f4d2f952d587109fd05de" style="width: 100.0%; height: 100.0%;">(CUZ) Cusco</div>`)[0];
+            popup_5f5b6dcc9b3d411a83d18caa0a06f94a.setContent(html_ad466bf04d7f4d2f952d587109fd05de);
+        
+
+        marker_88c1d9e1f5c84307ab54d987edeca2ee.bindPopup(popup_5f5b6dcc9b3d411a83d18caa0a06f94a)
+        ;
+
+        
+    
+    
+            var marker_4e6458b700614c8e9f82f313cb4074a6 = L.marker(
+                [12.1889, -68.959801],
+                {}
+            ).addTo(map_d3481d9b23754facacaca563141916b0);
+        
+    
+        var popup_87fb9b1911324a6fa4535329a54d63ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82098795e95e44bd9d972b56ae11b146 = $(`<div id="html_82098795e95e44bd9d972b56ae11b146" style="width: 100.0%; height: 100.0%;">(CUR) Willemstad</div>`)[0];
+            popup_87fb9b1911324a6fa4535329a54d63ab.setContent(html_82098795e95e44bd9d972b56ae11b146);
+        
+
+        marker_4e6458b700614c8e9f82f313cb4074a6.bindPopup(popup_87fb9b1911324a6fa4535329a54d63ab)
+        ;
+
+        
+    
+</script>
